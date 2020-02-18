@@ -777,7 +777,7 @@ li {
   bottom: 0px;
   width: 500%;
   height: 100vh;
-  background-image: url('../images/15img_contact_1.jpg');
+  background-image: url('../images/15img_contact.jpg');
   background-position: 0% 0%;
   background-repeat: no-repeat;
 }
@@ -789,7 +789,7 @@ li {
   bottom: 0px;
   width: 500%;
   height: 100vh;
-  background-image: url('../images/15img_contact_1.jpg');
+  background-image: url('../images/15img_contact.jpg');
   background-position: 0px 0px;
   background-repeat: no-repeat;
 }
@@ -801,8 +801,9 @@ li {
   bottom: 0px;
   width: 500%;
   height: 100vh;
-  background-image: url('../images/15img_contact_1.jpg');
+  background-image: url('../images/15img_contact.jpg');
   background-position: 0px 0px;
+  background-repeat: no-repeat;
 }
 
 .services-flex {
