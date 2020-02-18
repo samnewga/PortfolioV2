@@ -779,7 +779,6 @@ li {
   height: 100vh;
   background-image: url('../images/15img_contact_1.jpg');
   background-position: 0% 0%;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -792,7 +791,6 @@ li {
   height: 100vh;
   background-image: url('../images/15img_contact_1.jpg');
   background-position: 0px 0px;
-  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -805,8 +803,6 @@ li {
   height: 100vh;
   background-image: url('../images/15img_contact_1.jpg');
   background-position: 0px 0px;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .services-flex {
@@ -1890,6 +1886,44 @@ li {
   background-size: cover;
 }
 
+.myimage11 {
+  position: absolute;
+  left: -100%;
+  top: 0px;
+  bottom: 0px;
+  width: 500%;
+  height: 100vh;
+  background-image: url('../images/INimagesmall.png');
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+}
+
+.myimage122 {
+  position: absolute;
+  left: -200%;
+  top: 0px;
+  bottom: 0px;
+  width: 500%;
+  height: 100vh;
+  background-image: url('../images/INimagesmall.png');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.myimage13 {
+  position: absolute;
+  left: -300%;
+  top: 0px;
+  bottom: 0px;
+  width: 500%;
+  height: 100vh;
+  background-image: url('../images/INimagesmall.png');
+  background-position: 0px 0px;
+  background-size: 100px;
+  background-repeat: repeat;
+}
+
 @media screen and (max-width: 991px) {
   .flex-column-wide {
     height: 100%;
@@ -1995,15 +2029,15 @@ li {
   }
   .image21 {
     left: -250%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/15img_contact_1.jpg');
   }
   .image22 {
     left: -350%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/15img_contact_1.jpg');
   }
   .image23 {
     left: -450%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/15img_contact_1.jpg');
   }
   .image11 {
     left: -250%;
@@ -2311,11 +2345,11 @@ li {
   }
   .image31 {
     left: -250%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/14img_about_slide_3.jpg');
   }
   .image32 {
     left: -350%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/14img_about_slide_3.jpg');
   }
   .abt-s1-img-slice-3-copy {
     left: -450%;
@@ -2323,15 +2357,15 @@ li {
   }
   .image41 {
     left: -250%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/19img_404.jpg');
   }
   .image42 {
     left: -350%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/19img_404.jpg');
   }
   .image43 {
     left: -450%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/19img_404.jpg');
   }
   .image51 {
     left: -250%;
@@ -2359,13 +2393,25 @@ li {
   }
   .image33 {
     left: -450%;
-    background-image: url('../images/12img_about-slide_1.jpg');
+    background-image: url('../images/14img_about_slide_3.jpg');
   }
   .image633 {
     left: -350%;
   }
   .image63fixed {
     left: -450%;
+  }
+  .myimage11 {
+    left: -250%;
+    background-image: url('../images/INimagesmall.png');
+  }
+  .myimage122 {
+    left: -350%;
+    background-image: url('../images/INimagesmall.png');
+  }
+  .myimage13 {
+    left: -450%;
+    background-image: url('../images/INimagesmall.png');
   }
 }
 
@@ -2744,6 +2790,15 @@ li {
   .image63fixed {
     left: -300%;
   }
+  .myimage11 {
+    left: -100%;
+  }
+  .myimage122 {
+    left: -200%;
+  }
+  .myimage13 {
+    left: -300%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2881,6 +2936,15 @@ li {
     background-image: url('../images/github-white-icon.png');
     background-position: 0px 0px;
     background-size: 125px;
+  }
+  .myimage11 {
+    background-image: url('../images/15img_contact_1.jpg');
+  }
+  .myimage122 {
+    background-image: url('../images/15img_contact_1.jpg');
+  }
+  .myimage13 {
+    background-image: url('../images/15img_contact_1.jpg');
   }
 }
 
